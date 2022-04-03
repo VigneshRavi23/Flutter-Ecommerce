@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flipzon/screens/home.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 

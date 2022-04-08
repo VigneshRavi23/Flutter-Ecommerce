@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:flipzon/screens/Test/test_screen.dart';
 import 'package:flipzon/screens/home.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -22,8 +23,8 @@ class SplashScreenState extends State<Splash>
 
     Timer(
         const Duration(seconds: 3),
-        () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => const Home())));
+        () => Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) => const TestScreen())));
   }
 
   @override
